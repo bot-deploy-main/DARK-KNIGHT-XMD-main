@@ -38,7 +38,7 @@ cmd({
                     from,
                     {
                         image: { url: imageUrl },
-                        caption: `📷 Result for: *${query}*\n\nRequested by: @${m.sender.split('@')[0]}\n> © Powered by Malvin King`,
+                        caption: `📷 Result for: *${query}*\n\nRequested by: @${m.sender.split('@')[0]}\n> © Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`,
                         contextInfo: { mentionedJid: [m.sender] }
                     },
                     { quoted: mek }
