@@ -31,7 +31,7 @@ cmd({
                 `📜 *Bible Verse Found!*\n\n` +
                 `📖 *Reference:* ${ref}\n` +
                 `📚 *Text:* ${text}\n\n` +
-                `🗂️ *Translation:* ${translation_name}\n\n © NEXUS XMD BIBLE`
+                `🗂️ *Translation:* ${translation_name}\n\n © 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`
             );
         } else {
             reply("❌ *Verse not found.* Please check the reference and try again.");
