@@ -25,7 +25,7 @@ cmd({
 
     const fbData = await facebook(q);
     
-    const caption = `╭━━━〔 *ᴍᴀʟᴠɪɴ-xᴅ ғʙ ᴅʟ* 〕━━━⊷\n`
+    const caption = `╭━━━〔 *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 ғʙ ᴅʟ* 〕━━━⊷\n`
       + `┃▸ *Dᴜʀᴀᴛɪᴏɴ*: ${fbData.result.duration}\n`
       + `╰━━━⪼\n\n`
       + `🌐 *Download Options:*\n`
@@ -140,7 +140,7 @@ cmd({
     const videoUrl = data.data.url;
     await conn.sendMessage(from, {
       video: { url: videoUrl },
-      caption: "📥 *Facebook Video Downloaded*\n\n- Powered By Nexus Tech ✅",
+      caption: "📥 *Facebook Video Downloaded*\n\n- Powered By 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 ✅",
     }, { quoted: m });
 
   } catch (error) {
