@@ -47,8 +47,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398430045533@newsletter',
-          newsletterName: '『『 ᴍᴀʟᴠɪɴ-xᴅ 』』',
+          newsletterJid: '120363400240662312@newsletter',
+          newsletterName: '『『 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 』』',
           serverMessageId: 143
         }
       }
@@ -69,7 +69,7 @@ cmd({
       `📅 *Lᴀsᴛ ᴜᴘᴅᴀᴛᴇ*: ${lastup}\n` +
       `📦 *Pᴀᴄᴋᴀɢᴇ*: ${package}\n` +
       `📏 *Sɪᴢᴇ*: ${size}\n\n` +
-      `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴍᴀʟᴠɪɴ ᴋɪɴɢ `;
+      `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 `;
 
     // Send the APK file as a document
     await conn.sendMessage(from, {
@@ -82,8 +82,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398430045533@newsletter',
-          newsletterName: '『 ᴍᴀʟᴠɪɴ-xᴅ 』 ',
+          newsletterJid: '120363400240662312@newsletter',
+          newsletterName: '『 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 』 ',
           serverMessageId: 143
         }
       }
@@ -136,7 +136,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By Nexus-xmd*`;
+🔗 *Powered By 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
