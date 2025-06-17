@@ -55,14 +55,14 @@ cmd({
             `❤️ *Likes*: ${like}\n` +
             `💬 *Comments*: ${comment}\n` +
             `📝 *Caption*: ${caption || "No caption"}\n\n` +
-            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`,
+            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363398430045533@newsletter',
-              newsletterName: '『 ᴍᴀʟᴠɪɴ-xᴅ 』',
+              newsletterName: '『 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 』',
               serverMessageId: 143
             }
           }
@@ -76,14 +76,14 @@ cmd({
             `❤️ *Likes*: ${like}\n` +
             `💬 *Comments*: ${comment}\n` +
             `📝 *Caption*: ${caption || "No caption"}\n\n` +
-            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`,
+            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363398430045533@newsletter',
-              newsletterName: '『 ᴍᴀʟᴠɪɴ-xᴅ 』',
+              newsletterName: '『 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 』',
               serverMessageId: 143
             }
           }
@@ -156,14 +156,14 @@ cmd({
       video: videoBuffer,
       caption: `📥 *Instagram Video*\n\n` +
         `🔖 *Title*: ${title || "No title"}\n\n` +
-        `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`,
+        `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363398430045533@newsletter',
-          newsletterName: '『 ᴍᴀʟᴠɪɴ-xᴅ 』',
+          newsletterName: '『 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 』',
           serverMessageId: 143
         }
       }
