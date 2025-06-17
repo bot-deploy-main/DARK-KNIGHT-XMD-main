@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254794146821']
+  const ownerNumber = ['94771825192']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -67,7 +67,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("nexus~", '');
+const sessdata = config.SESSION_ID.replace("dark~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -112,22 +112,22 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, NEXUS-XMD Legend! ✨*
+  let up = `*✨ Hello, 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 Legend! ✨*
 
-╭─〔 *🤖 NEXUS-XMD BOT* 〕  
-├─▸ *Simplicity. Speed. Power. BY Pkdriller |*  
+╭─〔 *🤖 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 BOT* 〕  
+├─▸ *Simplicity. Speed. Power. BY 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃 |*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing NEXUS-XMD!*
+*❤️ Thank you for Choosing 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Pkdriller/NEXUS-XMD)!  
+│   Star Us [**Here**](https://github.com/DARK-NIGHT/DARK-KNIGHT-XMD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY PKDRILLER_`;
+> _© MADE BY 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃_`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/o3mkn9.jpeg` }, caption: up })
   }
   })
@@ -260,7 +260,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("254794146821")){
+  if(senderNumber.includes("94771825192")){
   if(isReact) return
   m.react("🤍")
    }
@@ -783,7 +783,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("Pkdriller IS  STARTED ✅");
+  res.send("DARK-KNIGHT-XMD IS  STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
