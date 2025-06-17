@@ -47,7 +47,7 @@ ${config.DESCRIPTION}`;
 ├──────────────────────┤
 │ • Time: ${uptime}
 │ • Started: ${startTime.toLocaleString()}
-│ • Version: 4.0.0
+│ • Version: 2.0.0
 └──────────────────────┘`;
 
         // Style 5: Modern Blocks
@@ -105,7 +105,7 @@ ${config.DESCRIPTION}`;
 ◈ Duration: ${uptime}
 ◈ Start Time: ${startTime.toLocaleString()}
 ◈ Stability: 100%
-◈ Version:  4.0.0
+◈ Version:  2.0.0
 
 ${config.DESCRIPTION}`;
 
@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: config.OWNER_NAME || 'Nexus-tech',
+                    newsletterJid: '120363400240662312@newsletter',
+                    newsletterName: config.OWNER_NAME || '𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳',
                     serverMessageId: 143
                 }
             }
