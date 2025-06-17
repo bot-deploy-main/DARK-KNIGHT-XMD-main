@@ -58,14 +58,14 @@ cmd({
         caption: `📥 *ғɪʟᴇ ᴅᴇᴛᴀɪʟs* 📥\n\n` +
           `🔖 *Nᴀᴍᴇ*: ${fileName}\n` +
           `📏 *Sɪᴢᴇ*: ${fileSize}\n\n` +
-          `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`,
+          `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363398430045533@newsletter',
-            newsletterName: '『 ✦ᴍᴀʟᴠɪɴ xᴅ v3✦ 』',
+            newsletterJid: '120363400240662312@newsletter',
+            newsletterName: '『 ✦𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳✦ 』',
             serverMessageId: 143
           }
         }
@@ -77,14 +77,14 @@ cmd({
         caption: `📥 *ғɪʟᴇ ᴅᴇᴛᴀɪʟs* 📥\n\n` +
           `🔖 *Nᴀᴍᴇ*: ${fileName}\n` +
           `📏 *Sɪᴢᴇ*: ${fileSize}\n\n` +
-          `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`,
+          `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363398430045533@newsletter',
-            newsletterName: '『 ᴍᴀʟᴠɪɴ-xᴅ 』',
+            newsletterJid: '120363400240662312@newsletter',
+            newsletterName: '『 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 』',
             serverMessageId: 143
           }
         }
@@ -98,14 +98,14 @@ cmd({
         caption: `📥 *ғɪʟᴇ ᴅᴇᴛᴀɪʟs* 📥\n\n` +
           `🔖 *Nᴀᴍᴇ*: ${fileName}\n` +
           `📏 *Sɪᴢᴇ*: ${fileSize}\n\n` +
-          `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`,
+          `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363398430045533@newsletter',
-            newsletterName: '『 ᴍᴀʟᴠɪɴ-xᴅ 』',
+            newsletterJid: '120363400240662312@newsletter',
+            newsletterName: '『 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 』',
             serverMessageId: 143
           }
         }
@@ -153,7 +153,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "*© Powered By JawadTechX*"
+        caption: "*© Powered By 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
