@@ -33,7 +33,7 @@ cmd({
 
         // Prepare the new message with the updated caption
         const desc = `
-╭━━━〔 *ᴍᴀʟᴠɪɴ xᴅ* 〕━┈⊷
+╭━━━〔 *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳* 〕━┈⊷
 ┃▸╭───────────
 ┃▸┊๏ *ᴘɪɴs ᴅʟ*
 ┃▸╰───────────···๏
@@ -42,7 +42,7 @@ cmd({
 ┇๏ *ᴛɪᴛᴛʟᴇ* - ${title}
 ┇๏ *ᴍᴇᴅɪᴀ ᴛʏᴘᴇ* - ${media[0].type}
 ╰━━┈┈┈┈┈┈┈┈┈━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ ♡*`;
+> *© Pᴏᴡᴇʀᴇᴅ Bʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 ♡*`;
 
         // Send the media (video or image) to the user
         if (videoUrl) {
@@ -64,7 +64,7 @@ cmd({
 
 cmd({
     pattern: "pindl2",
-    alias: ["pinterestdl2", "pin2", "pins2", "pindownload"],
+    alias: ["pinterestdl2", "pin2", "pins2", "pindownload2"],
     desc: "Download media from Pinterest",
     category: "download",
     filename: __filename
@@ -93,7 +93,7 @@ cmd({
         const videoUrl = media.find(item => item.type.includes('720p'))?.download_url || media[0].download_url;
 
         // Prepare the new message with the updated caption
-        const desc = `╭━━━〔 *NEXUS-XMD* 〕━━━┈⊷
+        const desc = `╭━━━〔 *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *PINS DOWNLOADER*
 ┃▸└───────────···๏
@@ -102,7 +102,7 @@ cmd({
 ┇๏ *Title* - ${title}
 ┇๏ *Media Type* - ${media[0].type}
 ╰━━❑━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ Nexus Tech ♡*`;
+> *© Pᴏᴡᴇʀᴇᴅ Bʏ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 ♡*`;
 
         // Send the media (video or image) to the user
         if (videoUrl) {
