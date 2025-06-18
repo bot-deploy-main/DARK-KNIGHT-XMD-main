@@ -120,8 +120,6 @@ cmd({
 });
 
 
-/// MEDIAFIRE 2
-
 cmd({
   pattern: "mediafire1",
   alias: ["mfire1", "media1"],
@@ -191,6 +189,7 @@ cmd({
     await conn.sendMessage(from, { react: { text: '❌', key: m.key } });
   }
 });
+
 
 cmd({
   pattern: "mediafire2",
