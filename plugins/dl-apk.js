@@ -100,6 +100,7 @@ cmd({
   }
 });
 
+
 cmd({
   pattern: "apk2",
   desc: "Download APK from Aptoide.",
