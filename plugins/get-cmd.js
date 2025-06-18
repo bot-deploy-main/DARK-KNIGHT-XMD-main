@@ -39,7 +39,7 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-Powered By *Nexus Tech* ☣️`;
+Powered By *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳* ☣️`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
@@ -50,8 +50,8 @@ Powered By *Nexus Tech* ☣️`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: 'Nexus Tech',
+                    newsletterJid: '120363400240662312@newsletter',
+                    newsletterName: '𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳',
                     serverMessageId: 143
                 }
             }
