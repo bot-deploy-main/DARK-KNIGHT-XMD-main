@@ -21,11 +21,11 @@ async (conn, mek, m, {
     }
 
     if (!isBotAdmins) return reply("❌ I need to be an admin to use this command.");
-    if (!q) return reply("❌ Please provide a country code. Example: .out 92");
+    if (!q) return reply("❌ Please provide a country code. Example: .out 94");
 
     const countryCode = q.trim();
     if (!/^\d+$/.test(countryCode)) {
-        return reply("❌ Invalid country code. Please provide only numbers (e.g., 92 for +92 numbers)");
+        return reply("❌ Invalid country code. Please provide only numbers (e.g., 94 for +94 numbers)");
     }
 
     try {
