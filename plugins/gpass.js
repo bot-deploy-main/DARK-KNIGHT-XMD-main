@@ -1,7 +1,6 @@
 const crypto = require("crypto");
-const {
-  cmd
-} = require("../command");
+const { cmd } = require("../command");
+
 cmd({
   'pattern': "gpass",
   'desc': "Generate a strong password.",
@@ -47,7 +46,7 @@ cmd({
     };
     const _0x51f475 = _0x571dd4(_0x1fe8bf);
     await _0x1f40d4.sendMessage(_0x329458, {
-      'text': "🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n *𝒮𝒾𝓁𝓋𝒶 𝒮𝓅𝒶𝓇𝓀 𝑀𝒟*"
+      'text': "🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*"
     }, {
       'quoted': _0x2b6900
     });
@@ -58,6 +57,6 @@ cmd({
     });
   } catch (_0x1ad7bb) {
     console.log(_0x1ad7bb);
-    _0x1bb557("❌NEXUS-XMD🇰🇪🦜 Error generating password🤕: " + _0x1ad7bb.message);
+    _0x1bb557("❌𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳🦜 Error generating password🤕: " + _0x1ad7bb.message);
   }
 });
