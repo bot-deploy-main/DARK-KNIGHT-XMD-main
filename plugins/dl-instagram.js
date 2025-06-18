@@ -180,6 +180,7 @@ cmd({
   }
 });
 
+
 cmd({
   pattern: "ig2",
   alias: ["insta2", "Instagram2"],
