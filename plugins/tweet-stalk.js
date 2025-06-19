@@ -38,7 +38,7 @@ cmd({
       + `┃📅 *Joined:* ${user.created}\n`
       + `┃🔗 *Profile:* [Click Here](${user.url})\n`
       + `╰━━━⪼\n\n`
-      + `🔹 *Powered BY Nexus-tech*`;
+      + `🔹 *Powered BY 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*`;
 
     await conn.sendMessage(from, {
       image: { url: user.avatar },
