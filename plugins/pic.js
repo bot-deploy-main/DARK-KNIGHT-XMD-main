@@ -68,7 +68,7 @@ cmd({
     await conn.sendMessage(from, {
         image: { url: `https://image.thum.io/get/fullpage/${url}` },
         caption: "- 🖼️ *Screenshot Generated*\n\n" +
-                "> Its nexus say it beiby🤭🎭♥️🧎"
+                "> Its 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 say it beiby 🎭"
     }, { quoted: mek });
 
   } catch (error) {
