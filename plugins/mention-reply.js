@@ -40,13 +40,13 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           externalAdReply: {
-            title: config.BOT_NAME || "MALVIN-XD",
-            body: config.DESCRIPTION || "POWERED BY MALVIN KING",
+            title: config.BOT_NAME || "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳",
+            body: config.DESCRIPTION || "POWERED BY 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳",
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: thumbnailBuffer,
             mediaUrl: "https://files.catbox.moe/medum3", // Static image URL
-            sourceUrl: "https://wa.me/263780166288",
+            sourceUrl: "https://wa.me/94771825192",
             showAdAttribution: true
           }
         }
