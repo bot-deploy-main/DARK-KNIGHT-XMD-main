@@ -33,7 +33,7 @@ cmd({
 
     // Create the response message
     const message = `
-*NEXUS-XMD NPM SEARCH*
+*𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 NPM SEARCH*
 
 *🔰 NPM PACKAGE:* ${packageName}
 *📄 DESCRIPTION:* ${description}
