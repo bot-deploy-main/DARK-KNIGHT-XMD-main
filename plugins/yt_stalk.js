@@ -13,7 +13,7 @@ cmd({
   try {
     const username = args.join(" ");
     if (!username) {
-      return reply("❌ Please provide a YouTube username. Example: `.ytstalk malvintech2 `");
+      return reply("❌ Please provide a YouTube username. Example: `.ytstalk tech`");
     }
 
     // Fetch YouTube channel information from the API
@@ -97,7 +97,7 @@ cmd({
       + `┃🎥 *Videos:* ${yt.video_count}\n`
       + `┃🔗 *Channel Link:* (${yt.channel})\n`
       + `╰━━━⪼\n\n`
-      + `🔹 *Powered by JawadTechX*`;
+      + `🔹 *Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*`;
 
     await conn.sendMessage(from, {
       image: { url: yt.avatar },
