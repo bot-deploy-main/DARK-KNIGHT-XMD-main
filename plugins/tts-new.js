@@ -12,7 +12,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
   try {
     // Ensure there is text
     if (!q) {
-      return reply("Please provide text for conversion! Usage: `.tts <text>`");
+      return reply("Please provide text for conversion! Usage: `.tts2 <text>`");
     }
 
     // Select voice language based on user input or default to a male voice
@@ -65,7 +65,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
   try {
     // Ensure there is text
     if (!q) {
-      return reply("Please provide text for conversion! Usage: `.tts2 <text>`");
+      return reply("Please provide text for conversion! Usage: `.tts3 <text>`");
     }
 
     // Set default language
