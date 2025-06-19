@@ -3,8 +3,8 @@ const { cmd } = require('../command');
 const yts = require('yt-search');
 
 cmd({
-    pattern: "yt3",
-    alias: ["play3", "music3"],
+    pattern: "yt4",
+    alias: ["play4", "music4"],
     react: "🎵",
     desc: "Download audio from YouTube",
     category: "download",
