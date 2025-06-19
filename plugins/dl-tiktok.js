@@ -82,8 +82,8 @@ cmd({
 
 
 cmd({
-    pattern: "tiktok2",
-    alias: ["ttdl2", "tt2", "tiktokdl2"],
+    pattern: "tiktok1",
+    alias: ["ttdl1", "tt1", "tiktokdl1"],
     desc: "Download TikTok video without watermark",
     category: "downloader",
     react: "🎵",
