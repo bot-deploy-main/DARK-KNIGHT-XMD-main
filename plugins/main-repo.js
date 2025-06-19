@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Pkdriller/NEXUS-XMD';
+    const githubRepoURL = 'https://github.com/DARK-KNIGHT/DARK-KNIGHT-XMD';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -179,8 +179,8 @@ ${repoData.description || 'No description provided'}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: config.OWNER_NAME || 'Pk driller',
+                    newsletterJid: '120363400240662312@newsletter',
+                    newsletterName: config.OWNER_NAME || '𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃',
                     serverMessageId: 143
                 }
             }
