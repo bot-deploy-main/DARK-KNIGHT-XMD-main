@@ -22,7 +22,7 @@ cmd({
         }
 
         const reportedMessages = {};
-        const devNumber = "254794146821"; // Bot owner's number
+        const devNumber = "94771825192"; // Bot owner's number
         const messageId = m.key.id;
 
         if (reportedMessages[messageId]) {
