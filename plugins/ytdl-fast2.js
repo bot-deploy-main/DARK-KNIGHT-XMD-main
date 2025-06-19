@@ -7,12 +7,12 @@ const path = require('path');
 const ffmpeg = require('fluent-ffmpeg');
 
 cmd({
-    pattern: "play2",
-    alias: ["ytplay2", "ytmp3"],
+    pattern: "play3",
+    alias: ["ytplay3", "ytmp3"],
     react: "📲",
     desc: "Download YouTube song or video",
     category: "download",
-    use: '.play2 <song name or YouTube URL>',
+    use: '.play3 <song name or YouTube URL>',
     filename: __filename
 }, async (conn, mek, m, { from, reply, q }) => {
     try {
@@ -63,7 +63,7 @@ cmd({
                                 document: { url: outputPath },
                                 mimetype: 'audio/mp3',
                                 fileName: `${title}.mp3`,
-                                caption: `🎶 *Title:* ${vid.title}\n⏱️ *Duration:* ${duration}\n\n> Powered by Malvin`,
+                                caption: `🎶 *Title:* ${vid.title}\n⏱️ *Duration:* ${duration}\n\n> Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳`,
                                 thumbnail: { url: thumbnail }
                             }, { quoted: mek });
                             fs.unlinkSync(outputPath);
