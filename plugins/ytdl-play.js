@@ -1,4 +1,4 @@
-const config = require('../settings');
+const config = require('../config');
 const { cmd } = require('../command');
 const yts = require('yt-search');
 
