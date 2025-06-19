@@ -32,7 +32,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *NEXUS-XMD SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
+        const text = `> *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
@@ -41,8 +41,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: "Nexus tech",
+                    newsletterJid: '120363400240662312@newsletter',
+                    newsletterName: "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳",
                     serverMessageId: 143
                 }
             }
@@ -69,7 +69,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '*PINGING...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*☣️ NEXUS-XMD SPEED : ${ping}ms*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*☣️ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 SPEED : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
