@@ -19,29 +19,29 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 let dec = `    
 ⟣──────────────────⟢
-▧ *ᴄʀᴇᴀᴛᴏʀ* : *NEXUS-XMD  (🪀)*
+▧ *ᴄʀᴇᴀᴛᴏʀ* : *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳  (🪀)*
 ▧ *ᴍᴏᴅᴇ* : *${config.MODE}*
 ▧ *ᴘʀᴇғɪx* : *${config.PREFIX}*
 ▧ *ʀᴀᴍ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-▧ *ᴠᴇʀsɪᴏɴ* : *V.5* ⚡
+▧ *ᴠᴇʀsɪᴏɴ* : *V.2* ⚡
 ▧ *ᴜᴘᴛɪᴍᴇ* : ${runtime(process.uptime())}
 
 ⟣──────────────────⟢
 
-> ☣️ NEXUS-BOT ☣️ 
+> ☣️ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 ☣️ 
 
 ⟣──────────────────⟢
 ${readMore}
 \ CHANNEL🛠️\
-https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
+https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e
 
 \ GROUP\ 👥
 
-[https://chat.whatsapp.com/KUc6KZ4OTAcJDkIDDGFz4O]
+[https://chat.whatsapp.com/IGgPW6pTrH14oAWCJALYR5]
 
-\ PK DRILLER\ *Dev🧑‍💻*
+\ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃\ *Dev🧑‍💻*
 
-wa.me/+254794146821 ?text=Support!
+wa.me/+94771825192 ?text=Support!
 
 ⟣──────────────────⟢
 
@@ -57,8 +57,8 @@ await conn.sendMessage(
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363288304618280@newsletter',
-                        newsletterName: '『 ☣️ NEXUS-XMD 🦖 』',
+                        newsletterJid: '120363400240662312@newsletter',
+                        newsletterName: '『 ☣️ 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 🦖 』',
                         serverMessageId: 143
                     }
                 }
