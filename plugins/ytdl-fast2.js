@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 const axios = require('axios');
 const fs = require('fs');
-const config = require('../settings');
+const config = require('../config');
 const path = require('path');
 const ffmpeg = require('fluent-ffmpeg');
 
