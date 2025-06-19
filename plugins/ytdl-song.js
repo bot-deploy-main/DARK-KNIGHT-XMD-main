@@ -44,7 +44,7 @@ cmd({
             `🔽 *Reply with your choice:*\n` +
             `1 *Audio Type* 🎵\n` +
             `2 *Document Type* 📁\n\n` +
-            `${config.FOOTER || "ᴍᴀʟᴠɪɴ-xᴅ"}`;
+            `${config.FOOTER || "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
