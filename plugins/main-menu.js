@@ -39,7 +39,7 @@ cmd({
 ┃◈│8️⃣  📌 *Other Menu*
 ┃◈│9️⃣  💞 *Reactions Menu*
 ┃◈│🔟  🏠 *Main Menu*
-┃◈│1️⃣1️⃣ 💦 *ADULT ZONE*
+┃◈│1️⃣1️⃣ 💦 *Adult Zone*
 ┃◈╰───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -452,7 +452,7 @@ cmd({
                         await conn.sendMessage(
                             senderID,
                             {
-                                text: `❌ *Invalid Option!* ❌\n\nPlease reply with a number between 1-10 to select a menu.\n\n*Example:* Reply with "1" for Download Menu\n\n> ${config.DESCRIPTION}`,
+                                text: `❌ *Invalid Option!* ❌\n\nPlease reply with a number between 1-11 to select a menu.\n\n*Example:* Reply with "1" for Download Menu\n\n> ${config.DESCRIPTION}`,
                                 contextInfo: contextInfo
                             },
                             { quoted: receivedMsg }
